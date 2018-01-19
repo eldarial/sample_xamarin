@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DefuseBomb"
+             x:Class="DefuseBomb.MainPage">
+
+    <StackLayout>
+
+        <Label Text="Defuse" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" 
+           x:Name="defuseLabel"/>
+
+        <Entry Placeholder="Type here"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               x:Name="defuseEntry"/>
+
+        <Button Text="Action"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="Center"
+               Clicked="Buttonclicked"/>
+
+        <Label Text="I 'll be back" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        
+    </StackLayout>
+
+</ContentPage>
