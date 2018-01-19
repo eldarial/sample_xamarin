@@ -1,2 +1,2 @@
 # sample_xamarin
-Some samples of samarin Forms
+Some samples of xamarin Forms, but only tested in Android phone
